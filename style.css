@@ -1,0 +1,14 @@
+body {
+	background-image: url("http://i.imgur.com/FVApkll.png");
+	text-align: center;
+	font-family: 'News Cycle', sans-serif;
+}
+.handwriting {
+		font-family: 'Rock Salt', cursive;
+}
+.hello {
+	font-size: 500%
+}
+.tagline {
+	font-size: 300%
+}
