@@ -3,12 +3,30 @@ body {
 	text-align: center;
 	font-family: 'News Cycle', sans-serif;
 }
+.header {
+  display: inline-block;
+}
 .handwriting {
-		font-family: 'Rock Salt', cursive;
+		font-family: 'Annie Use Your Telescope', cursive;
+    color: #689687;
 }
-.hello {
-	font-size: 500%
+.color {
+  color: #689687;
 }
-.tagline {
+.name {
 	font-size: 300%
 }
+p {
+	font-size: 200%;
+  vertical-align: center;
+}
+
+#zoe-photo {
+  height: auto; 
+  width: auto; 
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 10px;
+}
+
+
