@@ -1,6 +1,5 @@
 body {
 	background-image: url("http://i.imgur.com/FVApkll.png");
-	text-align: center;
 	font-family: 'News Cycle', sans-serif;
 }
 .header {
@@ -17,16 +16,32 @@ body {
 	font-size: 300%
 }
 p {
-	font-size: 200%;
+	font-size: 150%;
   vertical-align: center;
+  text-align: left;
+}
+
+p.tagline {
+  font-size: 200%;
 }
 
 #zoe-photo {
+  display: block;
   height: auto; 
   width: auto; 
   max-width: 200px;
   max-height: 200px;
   border-radius: 10px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
+.about-me {
+  word-wrap:break-word;
+  margin-left:auto;
+  margin-right:auto;
+}
 
+i {
+  color: #689687
+}
