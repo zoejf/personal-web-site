@@ -16,7 +16,7 @@ body {
 	font-size: 300%
 }
 p {
-	font-size: 150%;
+	font-size: 130%;
   vertical-align: center;
   text-align: left;
 }
@@ -40,6 +40,11 @@ p.tagline {
   word-wrap:break-word;
   margin-left:auto;
   margin-right:auto;
+  
+}
+
+.list {
+  list-style: none;
 }
 
 i {
