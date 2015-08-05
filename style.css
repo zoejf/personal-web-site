@@ -40,13 +40,33 @@ p.tagline {
   word-wrap:break-word;
   margin-left:auto;
   margin-right:auto;
-  
+
 }
 
 .list {
   list-style: none;
 }
 
-i {
-  color: #689687
+i{
+/*  color: #689687*/
+}
+
+/* unvisited link */
+a:link {
+    color: #689687;
+}
+
+/* visited link */
+a:visited {
+    color: #689687;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: #689687;
 }
