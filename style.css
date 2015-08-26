@@ -15,10 +15,10 @@ body {
 .name {
 	font-size: 200%;
 }
-.navbar-default {
+/*.navbar-default {
   background-color: transparent;
   border-color: transparent;
-}
+}*/
 p {
 	font-size: 130%;
   vertical-align: center;
@@ -27,6 +27,14 @@ p {
 
 p.tagline {
   font-size: 200%;
+}
+
+hr {
+width: 60%;
+background-color: #000000;
+height: 1px;
+margin-left: auto;
+margin-right: auto;
 }
 
 #zoe-photo {
@@ -45,6 +53,17 @@ p.tagline {
   margin-left:auto;
   margin-right:auto;
 
+}
+
+.project-image {
+  display: block;
+  height: auto; 
+  width: auto; 
+  max-width: 300px;
+  max-height: 200px;
+  border-radius: 10px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .list {
