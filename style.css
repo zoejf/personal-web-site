@@ -13,7 +13,11 @@ body {
   color: #689687;
 }
 .name {
-	font-size: 300%
+	font-size: 200%;
+}
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
 }
 p {
 	font-size: 130%;
