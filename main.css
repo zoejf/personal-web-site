@@ -1,0 +1,36 @@
+body {
+	font-family: 'News Cycle', sans-serif;
+}
+#welcome-section {
+	height: 100vh;
+	background-image: url(images/road_background.jpg);
+	background-size: cover;
+	position: relative;
+}
+.handwriting {
+	font-family: 'Annie Use Your Telescope', cursive;
+}
+.color {
+  color: #689687;
+}
+.name {
+	font-size: 200%;
+}
+
+i {
+	position: relative;
+	bottom: 30px;
+}
+
+.tagline {
+	margin: 200px auto;
+	text-align: center;
+}
+.tagline-text {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 2em;
+}
+.navbar-inverse .navbar-brand {
+	color: #689687;
+}
