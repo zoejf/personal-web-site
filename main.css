@@ -64,7 +64,7 @@ body {
 }
 
 
-footer {
+#footer {
 	color: #689687;
 	font-size: 1.5em;
 	text-align: center;
@@ -73,7 +73,7 @@ footer {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-footer p {
+#footer p {
 	margin-bottom: -15px;
 }
 .section-header {
@@ -82,8 +82,7 @@ footer p {
 	text-align: center;
 }
 #about-me {
-	/*height: 600px;*/
-	padding-top: 30px;
+	padding-top: 40px;
 }
 #about-me .text-content {
 	width: 80%;
@@ -116,13 +115,15 @@ footer p {
 }
 
 #portfolio {
-	height: 500px;
-	padding-top: 20px;
+	height: 100vh;
+	/*height: 500px;*/
+	padding-top: 40px;
 }
 
 #tiny-projects {
-	height: 500px;
-	padding-top: 20px;
+	height:100vh;
+	/*height: 500px;*/
+	padding-top: 40px;
 	background-color: black;
 }
 
@@ -132,7 +133,7 @@ div.project {
 	border-radius: 5px;
 	color: white;
 	height: 300px;
-	margin-top: 10px;
+	margin-top: 30px;
 	padding-top: 80px;
 }
 div.t-project {
@@ -141,7 +142,7 @@ div.t-project {
 	border-radius: 5px;
 	color: black;
 	height: 300px;
-	margin-top: 10px;
+	margin-top: 30px;
 	padding-top: 80px;
 }
 
