@@ -17,20 +17,131 @@ body {
 	font-size: 200%;
 }
 
-i {
+/*i {
 	position: relative;
 	bottom: 30px;
-}
+}*/
 
-.tagline {
-	margin: 200px auto;
+.heading {
+	margin-top: 175px;
+	margin-bottom: 150px;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 }
 .tagline-text {
 	padding-left: 10px;
 	padding-right: 10px;
-	font-size: 2em;
+	font-size: 2.2em;
 }
 .navbar-inverse .navbar-brand {
 	color: #689687;
 }
+
+.social-icons {
+	margin: 20px auto;
+	text-align: center;
+}
+
+/* unvisited link */
+.social-icons a:link {
+    color: white;
+}
+
+/* visited link */
+.social-icons a:visited {
+    color: white;
+}
+
+/* mouse over link */
+.social-icons a:hover {
+    color: #689687;
+}
+
+/* selected link */
+.social-icons a:active {
+    color: white;
+}
+
+
+footer {
+	color: #689687;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: black;
+	margin-bottom: -30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+footer p {
+	margin-bottom: -15px;
+}
+.section-header {
+	font-family: 'Annie Use Your Telescope', cursive;
+	color: #689687;
+	text-align: center;
+}
+#about-me {
+	/*height: 600px;*/
+	padding-top: 30px;
+}
+#about-me .text-content {
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px;
+	font-size: 1.2em;
+}
+.row .skills {
+	margin: 20px auto;
+	padding-top: 20px;
+}
+.skills-box ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.skills-box {
+	height: 175px;
+	text-align: center;
+	border: 1px solid black;
+	background-color: #9B9B9B;
+	padding-top: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	font-size: 1.1em;
+}
+.skills-box h4{
+	font-weight: bold;
+	color: white;
+}
+
+#portfolio {
+	height: 500px;
+	padding-top: 20px;
+}
+
+#tiny-projects {
+	height: 500px;
+	padding-top: 20px;
+	background-color: black;
+}
+
+div.project {
+	text-align: center;
+	background-color: black;
+	border-radius: 5px;
+	color: white;
+	height: 300px;
+	margin-top: 10px;
+	padding-top: 80px;
+}
+div.t-project {
+	text-align: center;
+	background-color: white;
+	border-radius: 5px;
+	color: black;
+	height: 300px;
+	margin-top: 10px;
+	padding-top: 80px;
+}
+
