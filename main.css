@@ -3,7 +3,7 @@ body {
 }
 #welcome-section {
 	height: 100vh;
-	background-image: url(images/road_background.jpg);
+	background-image: url(images/SF_background.jpeg);
 	background-size: cover;
 	position: relative;
 }
@@ -13,14 +13,13 @@ body {
 .color {
   color: #689687;
 }
+.orange {
+	color: #C0362C;
+}
+
 .name {
 	font-size: 200%;
 }
-
-/*i {
-	position: relative;
-	bottom: 30px;
-}*/
 
 .heading {
 	margin-top: 175px;
@@ -111,19 +110,21 @@ body {
 }
 .skills-box h4{
 	font-weight: bold;
-	color: white;
+	color: #C0362C;
 }
 
 #portfolio {
-	height: 100vh;
+	/*height: 100vh;*/
 	/*height: 500px;*/
 	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 #tiny-projects {
-	height:100vh;
+	/*height:100vh;*/
 	/*height: 500px;*/
 	padding-top: 40px;
+	padding-bottom: 40px;
 	background-color: black;
 }
 
@@ -132,9 +133,10 @@ div.project {
 	background-color: black;
 	border-radius: 5px;
 	color: white;
-	height: 300px;
+	height: 200px;
 	margin-top: 30px;
 	padding-top: 80px;
+	border: 1px solid black;
 }
 div.t-project {
 	text-align: center;
@@ -144,5 +146,65 @@ div.t-project {
 	height: 300px;
 	margin-top: 30px;
 	padding-top: 80px;
+}
+
+.project-heading {
+	text-align: center;
+	margin: 5px auto;
+	color: #C0362C;
+	font-size: 1.5em;
+}
+.project-heading span {
+	/*font-size: 1.5em;*/
+	padding-top: 20px;
+	font-weight: bold;
+}
+.project-heading a {
+	color: #C0362C;
+	text-decoration: none;
+}
+.project-heading a:hover {
+	color: black;
+}
+.project-heading ul {
+	list-style: none;
+	text-align: left;
+	margin: 0 auto;
+	font-size: .8em;
+}
+.col-sm-4 {
+}
+.tproject-heading {
+	text-align: center;
+	margin: 5px auto;
+	color: white;
+	font-size: 1.5em;
+}
+#simplify-local {
+	background-image: url(http://i.imgur.com/mT27M3Y.png);
+	background-size: cover;
+	background-position: center;
+}
+#to-market {
+	background-image: url(http://i.imgur.com/x0sTFvA.png);
+	background-size: cover;
+	background-position: center;
+}
+#scope {
+	background-image: url(http://i.imgur.com/HiUG1Ym.png);
+	background-size: cover;
+	background-position: center;
+}
+#canopy {
+	background-image: url(http://i.imgur.com/QCHddLi.png);
+	background-size: cover;
+	background-position: center;
+}
+.tproject-heading a {
+	color: white;
+	text-decoration: none;
+}
+.tproject-heading a:hover {
+	color: #689687;
 }
 
