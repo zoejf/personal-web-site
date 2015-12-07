@@ -102,7 +102,7 @@ div.project {
 .project-heading {
 	text-align: center;
 	margin: 5px auto;
-	color: #C0362C;
+	color: black;
 	font-size: 1.5em;
 }
 .project-heading span {
@@ -127,11 +127,6 @@ div.project {
 	padding-top: 20px;
 	padding-left: 25px;
 	padding-right: 25px;
-}
-#simplify-local {
-	background-image: url(http://i.imgur.com/mT27M3Y.png);
-	background-size: cover;
-	background-position: center;
 }
 #to-market {
 	background-image: url(http://i.imgur.com/x0sTFvA.png);
@@ -197,6 +192,18 @@ div.t-project {
 	padding-left: 50px;
 	font-size: .8em;
 }
+#simplify-local {
+	background-image: url(http://i.imgur.com/mT27M3Y.png);
+	background-size: cover;
+	background-position: center;
+}
+#coming-soon{
+	background-image: url(assets/contemporary_china/contemporary_china.png);
+	background-size: cover;
+	background-position: center;
+	font-size: 1.5em;
+	padding-top: 50px;
+}
 
 
 /*ABOUT ME SECTION*/
@@ -229,7 +236,7 @@ div.t-project {
 }
 .skills-box h4{
 	font-weight: bold;
-	color: #C0362C;
+	color: white;
 }
 
 
