@@ -1,12 +1,25 @@
 $(function() {
-   
-  // //when you hover over nav icons
-  // $("fa").hover(function() {
-  //   //change color from teal to grey
-  //   $(this).addClass("changeColor");
-  // }, function() {
-  //   $(this).removeClass("changeColor");
-  // }); 
+   console.log("js working!");
+
+ $('.project').hover(function() {
+ 	var id = $(this).attr("id");
+ 	$('#'+ id +' .stack').show();
+ }, function() {
+ 	var id = $(this).attr("id");
+ 	$('#'+ id +' .stack').hide();
+ });
+
+  $('.t-project').hover(function() {
+ 	var id = $(this).attr("id");
+ 	$('#'+ id +' .stack').show();
+ }, function() {
+ 	var id = $(this).attr("id");
+ 	$('#'+ id +' .stack').hide();
+ });
+
+
+  
+
 
 
 });

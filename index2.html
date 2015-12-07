@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Zoe Foss</title>
 </head>
+
+<link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16">
+
 <!-- bootstrap css -->
 <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <!--  google fonts -->
@@ -13,6 +17,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <!-- custom styles -->
 <link type="text/css" rel="stylesheet" href="main.css">
+
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
 	  <div class="container">
@@ -39,7 +44,7 @@
 	<div id="welcome-section">
 		<div class="container">
 			<div class="heading">
-				<p><span class="tagline-text">Full Stack Web Developer</span><i class="glyphicon glyphicon-option-horizontal orange"></i><span class="tagline-text">Data Enthusiast</span><i class="glyphicon glyphicon-option-horizontal orange"></i><span class="tagline-text">Life-long Learner</span></p>
+				<p><span class="tagline-text">Full Stack Web Developer</span><i class="glyphicon glyphicon-option-horizontal orange"></i><span class="tagline-text">Data Enthusiast</span><i class="glyphicon glyphicon-option-horizontal orange"></i><span class="tagline-text">Life-Long Learner</span></p>
 				<p><span class="tagline-text">Based in San Francisco, CA</span></p>
 			</div>
 			<div class="social-icons">
@@ -65,11 +70,7 @@
 				<div class="col-sm-4">
 					<a href="https://scope-learning.herokuapp.com" target="_blank">
 					 	<div class="project" id="scope">
-					 	</div>
-					</a>
-				 	<div class="project-heading">
-				 		<span>Scope </span>
-				 		&nbsp;&nbsp;<a href="https://github.com/zoejf/learningHub-rails" target="_blank"><i class="fa fa-github-square"></i></a><br>
+					 		<div class="stack">
 				 		<ul>
 				 			<li>Ruby on Rails with postgreSQL</li>
 				 			<li>Active Mailer</li>
@@ -77,16 +78,22 @@
 							<li>Bcrypt</li>
 							<li>RSPEC</li>
 				 		</ul>
+					 		</div>
+					 	</div>
+					</a>
+				 	<div class="project-heading">
+				 		<span>Scope </span>
+				 		&nbsp;&nbsp;<a href="https://github.com/zoejf/learningHub-rails" target="_blank"><i class="fa fa-github-square"></i></a><br>
+				 		<div class="description">
+					 		<p>A tool for people who want to learn a coding language or tool, but don't know where to start. Users save resources that interest them and comment on resources they've already used.</p> 
+					 		<p>I created a clearly organized database of resources and tags that will expand based on user suggestions. </p>
+				 		</div>
 				 	</div>
 				</div>
 				<div class="col-sm-4">
 					<a href="http://project-canopy.herokuapp.com/" target="_blank">
 						<div class="project" id="canopy">
-						</div>
-					</a>
-					<div class="project-heading">
-						<span>Canopy </span>
-						&nbsp;&nbsp;<a href="https://github.com/henryfreel/canopy" target="_blank"><i class="fa fa-github-square fa-1x"></i></a><br>
+							<div class="stack">
 				 		<ul>
 				 			<li>Ruby on Rails with postgreSQL</li>
 				 			<li>jQuery & AJAX</li>
@@ -95,11 +102,30 @@
 				 			<li>Bcrypt</li>
 				 			<li>Paperclip</li>
 				 		</ul>
+							</div>
+						</div>
+					</a>
+					<div class="project-heading">
+						<span>Canopy </span>
+						&nbsp;&nbsp;<a href="https://github.com/henryfreel/canopy" target="_blank"><i class="fa fa-github-square fa-1x"></i></a><br>
+						<div class="description">
+							<p>A sharing and networking resource for developers. Live projects are embedded on the site along with code snippets and comments. </p>
+							<p>My responsibilities: MVC setup; photo uploads with Paperclip and storage with AWS; authorization and authentication; incorporating Screenshot Machine API.</p>
+						</div>
 					</div>
 				</div>
 				<div class="col-sm-4">
 					<a href="http://farmers-market-finder.herokuapp.com/" target="_blank">
 						<div class="project" id="to-market">
+							<div class="stack">
+							<ul>
+								<li>Javascript with Node.js & Express</li>
+								<li>MongoDB & Mongoose</li>
+								<li>Mapbox API</li>
+								<li>jQuery & AJAX</li>
+								<li>USDA National Farmers Market Directory API</li>
+							</ul>
+							</div>
 						</div>
 					</a>
 					<div class="project-heading">
@@ -107,13 +133,10 @@
 						To Market 
 						</span>
 						&nbsp;&nbsp;<a href="https://github.com/zoejf/market-finder" target="_blank"><i class="fa fa-github-square fa-1x"></i></a><br>
-						<ul>
-							<li>Javascript with Node.js & Express</li>
-							<li>MongoDB & Mongoose</li>
-							<li>Mapbox API</li>
-							<li>jQuery & AJAX</li>
-							<li>USDA National Farmers Market Directory API</li>
-						</ul>
+						<div class="description">
+							<p>Find a farmers market near you! Users search by zip code and see USDA farmers market results on a map and in a list.</p> 
+							<p>I first built To Market during a 1-week sprint assignment at General Assembly and have continued to update features based on user feedback.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -125,12 +148,26 @@
 			<div class="row tiny-projects">
 				<div class="col-sm-5 col-sm-offset-1">
 					<div class="t-project" id="simplify-local">
+						<div class="stack">
+						<ul>
+							<li>Ruby on Rails</li>
+							<li>Mapbox API</li>
+							<li>Mastercard Simplify Commerce API</li>
+							<li>HTML5 Location Services</li>
+							<li>OAuth with Twitter Digits API</li>
+						</ul>
+						</div>
 					</div>
 					<div class="tproject-heading">
 						<span>
 							Simplify Local
 						</span>
 						&nbsp;&nbsp;<a href="https://github.com/zoejf/simplify-local" target="_blank"><i class="fa fa-github-square"></i></a><br>
+						<div class="description">
+							<p><strong>Top 6 Semi-Finalist <br> Mastercard Masters Of Code Hackathon</strong></p>
+							<p>In 24 hours, my team and I built a mobile-friendly web app where users can find and shop at locally owned businesses near them. I co-lead the front-end development by designing layouts, integrating maps, and creating business show pages. I also developed the pitch to the judges.</p> 
+							<p>Judging based on: Impact, Design, Creativity, Simplicity, and Usage of MasterCard's APIs.</p>
+						</div>
 					</div>
 				</div>
 				<div class="col-sm-5">
@@ -223,5 +260,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<!-- Bootstrap JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>
