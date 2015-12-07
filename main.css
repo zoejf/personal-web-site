@@ -1,11 +1,6 @@
+/*ALL PAGE ELEMENTS*/
 body {
 	font-family: 'News Cycle', sans-serif;
-}
-#welcome-section {
-	height: 100vh;
-	background-image: url(images/SF_background.jpeg);
-	background-size: cover;
-	position: relative;
 }
 .handwriting {
 	font-family: 'Annie Use Your Telescope', cursive;
@@ -16,11 +11,26 @@ body {
 .orange {
 	color: #C0362C;
 }
+.navbar-inverse .navbar-brand {
+	color: #689687;
+}
+.section-header {
+	font-family: 'Annie Use Your Telescope', cursive;
+	color: #689687;
+	text-align: center;
+}
 
+
+/*WELCOME SECTION*/
+#welcome-section {
+	height: 100vh;
+	background-image: url(images/SF_background.jpeg);
+	background-size: cover;
+	position: relative;
+}
 .name {
 	font-size: 200%;
 }
-
 .heading {
 	margin-top: 175px;
 	margin-bottom: 150px;
@@ -33,101 +43,53 @@ body {
 	padding-right: 25px;
 	font-size: 2.2em;
 }
-.navbar-inverse .navbar-brand {
-	color: #689687;
-}
-
 .social-icons {
 	margin: 20px auto;
 	text-align: center;
 }
-
 /* unvisited link */
 .social-icons a:link {
     color: white;
 }
-
 /* visited link */
 .social-icons a:visited {
     color: white;
 }
-
 /* mouse over link */
 .social-icons a:hover {
     color: #689687;
 }
-
 /* selected link */
 .social-icons a:active {
     color: white;
 }
 
 
-#footer {
-	color: #689687;
-	font-size: 1.5em;
-	text-align: center;
-	background-color: black;
-	margin-bottom: -30px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-#footer p {
-	margin-bottom: -15px;
-}
-.section-header {
-	font-family: 'Annie Use Your Telescope', cursive;
-	color: #689687;
-	text-align: center;
-}
-#about-me {
-	padding-top: 40px;
-}
-#about-me .text-content {
-	width: 80%;
-	margin: 0 auto;
-	padding: 30px;
-	font-size: 1.2em;
-}
-.row .skills {
-	margin: 20px auto;
-	padding-top: 20px;
-}
-.skills-box ul {
+/*PORTFOLIO AND TINY PROJECTS*/
+.stack ul {
 	list-style: none;
 	padding-left: 0;
 }
-
-.skills-box {
-	height: 175px;
+.description {
+	margin-top: 5px;
+	font-size: .7em;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.project-heading {
+	color: black;
 	text-align: center;
-	border: 1px solid black;
-	background-color: rgba(155,155,155, .7);
-	padding-top: 10px;
-	margin-top: 10px;
-	border-radius: 5px;
-	font-size: 1.1em;
+	margin: 0 auto;
 }
-.skills-box h4{
-	font-weight: bold;
-	color: #C0362C;
+.col-sm-4 a {
+	text-decoration: none;
 }
 
+/*PORTFOLIO SECTION*/
 #portfolio {
-	/*height: 100vh;*/
-	/*height: 500px;*/
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-
-#tiny-projects {
-	/*height:100vh;*/
-	/*height: 500px;*/
-	padding-top: 40px;
-	padding-bottom: 40px;
-	background-color: black;
-}
-
 div.project {
 	text-align: center;
 	background-color: black;
@@ -137,15 +99,6 @@ div.project {
 	margin-top: 30px;
 	border: 1px solid black;
 }
-div.t-project {
-	text-align: center;
-	background-color: white;
-	border-radius: 5px;
-	color: black;
-	height: 300px;
-	margin-top: 30px;
-}
-
 .project-heading {
 	text-align: center;
 	margin: 5px auto;
@@ -153,7 +106,6 @@ div.t-project {
 	font-size: 1.5em;
 }
 .project-heading span {
-	/*font-size: 1.5em;*/
 	padding-top: 20px;
 	font-weight: bold;
 }
@@ -164,27 +116,17 @@ div.t-project {
 .project-heading a:hover {
 	color: #C0362C;
 }
-.project-heading {
-	color: black;
+.project .stack {
+	display: none;
+	background-color: rgba(104,150,135, 0.8);
 	text-align: center;
-	margin: 0 auto;
-}
-.col-sm-4 a {
-	text-decoration: none;
-}
-.tproject-heading {
-	text-align: center;
-	margin: 5px auto;
+	font-size: 1.2em;
+	border-radius: 5px;
 	color: white;
-	font-size: 1.5em;
-}
-.tproject-heading ul {
-	color: white;
-	list-style: none;
-	text-align: left;
-	margin: 0 auto;
-	padding-left: 50px;
-	font-size: .8em;
+	height: 200px;
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 #simplify-local {
 	background-image: url(http://i.imgur.com/mT27M3Y.png);
@@ -206,28 +148,21 @@ div.t-project {
 	background-size: cover;
 	background-position: center;
 }
-.project .stack {
-	display: none;
-	background-color: rgba(104,150,135, 0.8);
-	text-align: center;
-	font-size: 1.2em;
-	border-radius: 5px;
-	color: white;
-	height: 200px;
-	padding-top: 20px;
-	padding-left: 25px;
-	padding-right: 25px;
-}
-.stack ul {
-	list-style: none;
-	padding-left: 0;
-}
 
-.description {
-	margin-top: 5px;
-	font-size: .7em;
-	padding-left: 20px;
-	padding-right: 20px;
+
+/*TINY PROJECTS SECTION*/
+#tiny-projects {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: black;
+}
+div.t-project {
+	text-align: center;
+	background-color: white;
+	border-radius: 5px;
+	color: black;
+	height: 300px;
+	margin-top: 30px;
 }
 .t-project .stack  {
 	display: none;
@@ -241,7 +176,6 @@ div.t-project {
 	padding-right: 25px;
 	padding-top: 50px;
 }
-
 .tproject-heading a {
 	color: white;
 	text-decoration: none;
@@ -249,4 +183,70 @@ div.t-project {
 .tproject-heading a:hover {
 	color: #C0362C;
 }
+.tproject-heading {
+	text-align: center;
+	margin: 5px auto;
+	color: white;
+	font-size: 1.5em;
+}
+.tproject-heading ul {
+	color: white;
+	list-style: none;
+	text-align: left;
+	margin: 0 auto;
+	padding-left: 50px;
+	font-size: .8em;
+}
 
+
+/*ABOUT ME SECTION*/
+#about-me {
+	padding-top: 40px;
+}
+#about-me .text-content {
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px;
+	font-size: 1.2em;
+}
+.row .skills {
+	margin: 20px auto;
+	padding-top: 20px;
+}
+.skills-box ul {
+	list-style: none;
+	padding-left: 0;
+}
+.skills-box {
+	height: 175px;
+	text-align: center;
+	border: 1px solid black;
+	background-color: rgba(155,155,155, .7);
+	padding-top: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	font-size: 1.1em;
+}
+.skills-box h4{
+	font-weight: bold;
+	color: #C0362C;
+}
+
+
+/*FOOTER*/
+#footer {
+	color: #689687;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: black;
+	margin-bottom: -30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#footer p {
+	margin-bottom: -15px;
+}
+#copyright {
+	color: white;
+	font-size: .6em;
+}
