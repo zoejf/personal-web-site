@@ -1,6 +1,6 @@
 /*ALL PAGE ELEMENTS*/
 body {
-	font-family: 'News Cycle', sans-serif;
+	font-family: 'Arimo', sans-serif;
 }
 .handwriting {
 	font-family: 'Annie Use Your Telescope', cursive;
@@ -39,9 +39,13 @@ body {
 	text-align: center;
 }
 .tagline-text {
-	padding-left: 25px;
-	padding-right: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
 	font-size: 2.2em;
+}
+
+.text-sm {
+	font-size:1.8em;
 }
 .social-icons {
 	margin: 20px auto;
