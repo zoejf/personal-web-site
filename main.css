@@ -19,7 +19,11 @@ body {
 	color: #689687;
 	text-align: center;
 }
-
+@media (max-width: 500px) {
+	.mobile-text {
+		font-style: 1.3em;
+	}
+}
 
 /*WELCOME SECTION*/
 #welcome-section {
@@ -84,6 +88,9 @@ body {
 	color: black;
 	text-align: center;
 	margin: 0 auto;
+}
+.col-md-4 a {
+	text-decoration: none;
 }
 .col-sm-4 a {
 	text-decoration: none;
@@ -201,12 +208,9 @@ div.t-project {
 	background-size: cover;
 	background-position: center;
 }
-#coming-soon{
-	background-image: url(assets/contemporary_china/contemporary_china.png);
+#classroom-chat {
+	background-image: url(images/classroom-chat.png);
 	background-size: cover;
-	background-position: center;
-	font-size: 1.5em;
-	padding-top: 50px;
 }
 
 
