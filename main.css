@@ -140,17 +140,17 @@ div.project {
 	padding-right: 25px;
 }
 #to-market {
-	background-image: url(http://i.imgur.com/x0sTFvA.png);
+	background-image: url(images/to-market-screenshot.jpg);
 	background-size: cover;
 	background-position: center;
 }
 #scope {
-	background-image: url(http://i.imgur.com/HiUG1Ym.png);
+	background-image: url(images/scope-screenshot.png);
 	background-size: cover;
 	background-position: center;
 }
 #canopy {
-	background-image: url(http://i.imgur.com/QCHddLi.png);
+	background-image: url(images/canopy-screenshot.png);
 	background-size: cover;
 	background-position: center;
 }
